@@ -2,98 +2,72 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <title>eBook do Soninho</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>10 Histórias para Crianças Dormirem - ÚLTIMAS HORAS!</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <style>
     body {
+      background-color: #cce6ff;
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      background: linear-gradient(to bottom, #8e44ad, #9b59b6);
-      color: white;
-      text-align: center;
       padding: 0;
+      color: #333;
     }
-
-    .countdown-banner {
-      background-color: #6c3483;
-      padding: 10px 0;
-      font-weight: bold;
-    }
-
-    .countdown-text {
-      font-size: 1.2em;
-    }
-
-    .countdown-timer {
-      font-size: 2em;
-      margin-top: 5px;
-    }
-
-    header.header {
+    header, section {
       padding: 20px;
+      text-align: center;
     }
-
-    .header h1 {
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
+      color: #1a1a80;
     }
-
-    .subtitle {
+    p {
       font-size: 1.2em;
-      margin-bottom: 15px;
+      line-height: 1.6em;
+      max-width: 800px;
+      margin: auto;
     }
-
-    .urgency-badge {
-      background-color: #f39c12;
-      color: #fff;
+    .botao {
       display: inline-block;
-      padding: 10px 20px;
-      border-radius: 30px;
+      background-color: #ffcc00;
+      color: #000;
       font-weight: bold;
-    }
-
-    .soninho-img {
-      width: 180px;
-      margin-top: 20px;
-    }
-
-    a.btn-comprar {
-      display: inline-block;
-      background-color: #f39c12;
-      color: #fff;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 30px;
+      padding: 15px 25px;
       font-size: 1.2em;
+      border-radius: 10px;
       text-decoration: none;
-      margin-top: 20px;
+      margin-top: 30px;
       transition: background 0.3s;
     }
-
-    a.btn-comprar:hover {
-      background-color: #d35400;
+    .botao:hover {
+      background-color: #e6b800;
     }
   </style>
 </head>
 <body>
-  <!-- Imagem do Soninho -->
-  <img class="soninho-img" src="https://i.imgur.com/4AiXzf8.png" alt="Ursinho Soninho">
 
-  <!-- Banner de Contagem Regressiva -->
-  <div class="countdown-banner">
-    <div class="countdown-text">🚨 ÚLTIMAS HORAS! Promoção por tempo limitado!</div>
-    <div class="countdown-timer" id="countdown">00:00:00</div>
-  </div>
-
-  <header class="header">
-    <h1>10 Histórias para Crianças Dormirem</h1>
-    <div class="subtitle">Transforme a hora de dormir em um momento mágico ✨</div>
-    <div class="urgency-badge">Oferta expira em breve!</div>
-
-    <!-- Botão de Compra -->
-    <br>
-    <a class="btn-comprar" href="https://pay.kiwify.com.br/a51jGuE" target="_blank">Quero Ajudar Meu Filho a Dormir!</a>
+  <header>
+    <h1>eBook do Soninho</h1>
+    <img src="capa.jpg" alt="Capa do eBook do Soninho">
+    <p>10 histórias encantadoras para ajudar as crianças a relaxarem e dormirem com tranquilidade. Criado com carinho para transformar a hora de dormir em um momento especial e mágico entre pais e filhos.</p>
   </header>
 
-  <!-- Script
+  <section>
+    <h2>Sobre Nós</h2>
+    <img src="soninho.jpg" alt="Personagem Soninho">
+    <p>O projeto Soninho nasceu do desejo de criar uma rotina de sono mais tranquila e feliz para os pequenos. Cada história foi pensada para acalmar, entreter e aproximar pais e filhos antes de dormir. Com o apoio do boneco Soninho, queremos fazer parte de noites mais leves e sonos mais tranquilos.</p>
+  </section>
+
+  <section>
+    <h2>Garanta o seu por apenas R$ 6,99</h2>
+    <a class="botao" href="https://pay.kiwify.com.br/a51jGuE" target="_blank">Não perca essa oportunidade!<br>Vem fazer parte do Soninho</a>
+  </section>
+
+</body>
+</html>
